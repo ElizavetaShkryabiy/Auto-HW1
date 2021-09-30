@@ -9,7 +9,7 @@ public class ServiceTest {
     @Test
     public void shouldFindRestSumToBuyWhenSumIsOK() {
         int actual = service.remain(1000);
-        assertEquals(actual, 1000);
+        assertEquals(actual, 0);
     }
 
     @Test
@@ -21,7 +21,7 @@ public class ServiceTest {
     @Test
     public void shouldFindRestSumToBuyWhenSumTwiceBigger() {
         int actual = service.remain(2000);
-        assertEquals(actual, 1000);
+        assertEquals(actual, 0);
     }
 
     @Test
