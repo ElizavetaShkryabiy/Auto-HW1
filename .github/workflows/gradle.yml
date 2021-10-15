@@ -9,6 +9,7 @@ on:
     [ junit4 ]
   pull_request:
     branches: [ master ]
+      [ junit4 ]
 
 jobs:
   build:
